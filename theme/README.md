@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="../gatsby-theme-tailwindcss_logo.svg" width="180" />
+    <img alt="Gatsby" src="./gatsby-theme-tailwindcss_logo.svg" width="180" />
   </a>
 </p>
 <h1 align="center">
@@ -26,13 +26,13 @@ Tailwindcss and postcss are required to have tailwind properly working, emotion 
 ### Manually add to your site
 
 ```sh
-npm install --save gatsby-theme-tailwindcss
+npm install --save @renejam/gatsby-theme-tailwindcss
 ```
 
 or
 
 ```sh
-yarn add @rene/jamgatsby-theme-tailwindcss
+yarn add @renejam/gatsby-theme-tailwindcss
 ```
 
 ## Usage
@@ -99,11 +99,9 @@ This theme is using [gatsby-plugin-postcss](https://www.gatsbyjs.org/packages/ga
 
 #### Example usage
 
-The only plugin included as default is the actual tailwindcss required to work, but I do recommend using the autoprefixer and purgeCSS plugins too.
+The only plugin included as default is the actual tailwindcss required to work, but I do recommend using the autoprefixer plugin.
 
 ## With autoprefixer
-
-(See it in action in the demo site)
 
 ```js
 // gatsby-config.js
@@ -118,11 +116,3 @@ module.exports = {
   ],
 }
 ```
-
-## With purgeCSS
-
-(See it in action in the demo site)
-
-Use the official gatsby plugin [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/)
-
-For more detailed info, visit the official docs at [tailwindcss docs](https://tailwindcss.com/docs/controlling-file-size)
