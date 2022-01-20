@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-theme-tailwindcss",
-  "version": "1.1.0",
+  "name": "@renejam/gatsby-theme-tailwindcss",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "Jordi Talens <talensjr@gmail.com>",
+  "author": "René Sauvé <rene@jambaree.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/talensjr/gatsby-theme-tailwindcss.git"
+    "url": "https://github.com/jambaree/gatsby-theme-tailwindcss.git"
   },
   "keywords": [
     "gatsby",
@@ -14,21 +14,21 @@
     "gatsby-plugin"
   ],
   "devDependencies": {
-    "gatsby": "^2.19.17",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "gatsby": "^4.5.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "peerDependencies": {
-    "gatsby": "^2.19.17",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "gatsby": "^4.5.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.27",
-    "@emotion/styled": "^10.0.27",
-    "gatsby-plugin-emotion": "^4.1.22",
-    "gatsby-plugin-postcss": "^2.1.20",
-    "tailwind.macro": "^1.0.0-alpha.10",
-    "tailwindcss": "^1.2.0"
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "gatsby-plugin-emotion": "^7.5.0",
+    "gatsby-plugin-postcss": "^5.5.0",
+    "tailwindcss": "^3.0.15"
   }
 }

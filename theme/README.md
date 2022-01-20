@@ -32,7 +32,7 @@ npm install --save gatsby-theme-tailwindcss
 or
 
 ```sh
-yarn add gatsby-theme-tailwindcss
+yarn add @rene/jamgatsby-theme-tailwindcss
 ```
 
 ## Usage
@@ -73,7 +73,7 @@ import "./src/utils/globals.css"
 
 ### Configuration
 
-Add a `tailwind.config.js` file at the root of your project folder in order to use the [tailwind.macro](https://github.com/bradlc/babel-plugin-tailwind-components/releases/tag/v1.0.0-alpha.2) for CSS in JS and to be able to [customise](https://tailwindcss.com/docs/configuration) the tailwind base styles and modifiers.
+Add a `tailwind.config.js` file at the root of your project folder
 
 ```sh
 yarn tailwind init
