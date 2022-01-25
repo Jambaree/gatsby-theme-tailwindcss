@@ -49,27 +49,27 @@ import {
 } from "@heroicons/react/solid"
 
 const navigation = [
-  { name: "Home", href: "#", icon: HomeIcon, current: true },
-  { name: "History", href: "#", icon: ClockIcon, current: false },
-  { name: "Balances", href: "#", icon: ScaleIcon, current: false },
-  { name: "Cards", href: "#", icon: CreditCardIcon, current: false },
-  { name: "Recipients", href: "#", icon: UserGroupIcon, current: false },
-  { name: "Reports", href: "#", icon: DocumentReportIcon, current: false },
+  { name: "Home", href: "/", icon: HomeIcon, current: true },
+  { name: "History", href: "/", icon: ClockIcon, current: false },
+  { name: "Balances", href: "/", icon: ScaleIcon, current: false },
+  { name: "Cards", href: "/", icon: CreditCardIcon, current: false },
+  { name: "Recipients", href: "/", icon: UserGroupIcon, current: false },
+  { name: "Reports", href: "/", icon: DocumentReportIcon, current: false },
 ]
 const secondaryNavigation = [
-  { name: "Settings", href: "#", icon: CogIcon },
-  { name: "Help", href: "#", icon: QuestionMarkCircleIcon },
-  { name: "Privacy", href: "#", icon: ShieldCheckIcon },
+  { name: "Settings", href: "/", icon: CogIcon },
+  { name: "Help", href: "/", icon: QuestionMarkCircleIcon },
+  { name: "Privacy", href: "/", icon: ShieldCheckIcon },
 ]
 const cards = [
-  { name: "Account balance", href: "#", icon: ScaleIcon, amount: "$30,659.45" },
+  { name: "Account balance", href: "/", icon: ScaleIcon, amount: "$30,659.45" },
   // More items...
 ]
 const transactions = [
   {
     id: 1,
     name: "Payment to Molly Sanders",
-    href: "#",
+    href: "/",
     amount: "$20,000",
     currency: "USD",
     status: "success",
@@ -280,7 +280,7 @@ const HomeLanding = () => {
             {/* Search bar */}
             <div className="flex-1 px-4 flex justify-between sm:px-6 lg:max-w-6xl lg:mx-auto lg:px-8">
               <div className="flex-1 flex">
-                <form className="w-full flex md:ml-0" action="#" method="GET">
+                <form className="w-full flex md:ml-0" action="/" method="GET">
                   <label htmlFor="search-field" className="sr-only">
                     Search
                   </label>
@@ -342,7 +342,7 @@ const HomeLanding = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
@@ -355,7 +355,7 @@ const HomeLanding = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
@@ -368,7 +368,7 @@ const HomeLanding = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active ? "bg-gray-100" : "",
                               "block px-4 py-2 text-sm text-gray-700"
@@ -502,10 +502,7 @@ const HomeLanding = () => {
 
               {/* Activity list (smallest breakpoint only) */}
               <div className="shadow sm:hidden">
-                <ul
-                  role="list"
-                  className="mt-2 divide-y divide-gray-200 overflow-hidden shadow sm:hidden"
-                >
+                <ul className="mt-2 divide-y divide-gray-200 overflow-hidden shadow sm:hidden">
                   {transactions.map((transaction) => (
                     <li key={transaction.id}>
                       <a
@@ -549,13 +546,13 @@ const HomeLanding = () => {
                 >
                   <div className="flex-1 flex justify-between">
                     <a
-                      href="#"
+                      href="/"
                       className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:text-gray-500"
                     >
                       Previous
                     </a>
                     <a
-                      href="#"
+                      href="/"
                       className="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:text-gray-500"
                     >
                       Next
@@ -644,13 +641,13 @@ const HomeLanding = () => {
                         </div>
                         <div className="flex-1 flex justify-between sm:justify-end">
                           <a
-                            href="#"
+                            href="/"
                             className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
                           >
                             Previous
                           </a>
                           <a
-                            href="#"
+                            href="/"
                             className="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
                           >
                             Next

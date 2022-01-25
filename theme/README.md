@@ -26,13 +26,13 @@ Tailwindcss and postcss are required to have tailwind properly working, emotion 
 ### Manually add to your site
 
 ```sh
-npm install --save @renejam/gatsby-theme-tailwindcss
+npm install --save @jambaree/gatsby-theme-tailwindcss
 ```
 
 or
 
 ```sh
-yarn add @renejam/gatsby-theme-tailwindcss
+yarn add @jambaree/gatsby-theme-tailwindcss
 ```
 
 ## Usage
@@ -74,6 +74,16 @@ import "./src/utils/globals.css"
 ### Configuration
 
 Add a `tailwind.config.js` file at the root of your project folder
+
+```js
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
 
 ```sh
 yarn tailwind init
