@@ -1,15 +1,4 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="./gatsby-theme-tailwindcss_logo.svg" width="180" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Tailwind Theme
-</h1>
-
-A Gatsby theme to use tailwindcss.
-
-[Demo site](https://gatsby-theme-tailwindcss.netlify.com/)
+A Gatsby theme to easily use tailwindcss.
 
 ## Summary
 
@@ -23,8 +12,6 @@ Tailwindcss and postcss are required to have tailwind properly working, emotion 
 
 ## Installation
 
-### Manually add to your site
-
 ```sh
 npm install --save @jambaree/gatsby-theme-tailwindcss
 ```
@@ -37,62 +24,11 @@ yarn add @jambaree/gatsby-theme-tailwindcss
 
 ## Usage
 
-### Add Tailwind to your CSS
-
-As stated on its [official documentation](https://tailwindcss.com/docs/installation#2-add-tailwind-to-your-css), inject Tailwind's styles using the `@tailwind` directive:
-
-```css
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-```
-
-You should write these 3 directives either on a css you are importing or creating a new `.css` file and importing it.
-
-I recommend creating a `globals.css` file for example in a `utils` folder and use it for tailwind loading directives and later [**extracting CSS components**](https://tailwindcss.com/docs/extracting-components#extracting-css-components-with-apply) and / or other customisations if needed.
-
-```
-├── gatsby-config.js
-├── node_modules
-├── package.json
-└── src
-    ├── pages
-    │   └── index.js
-    └── utils
-        └── globals.css
-```
-
 **NOTE**: If you experience a FOUC (flash of unstyled content) when first loading pages, import the above mentioned `.css` file on `gatsby-browser.js`, like this:
 
 ```js
 //gatsby-browser.js
-import "./src/utils/globals.css"
-```
-
-### Configuration
-
-Add a `tailwind.config.js` file at the root of your project folder
-
-```js
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-```sh
-yarn tailwind init
-```
-
-or
-
-```sh
-npx tailwindcss init
+import "./src/styles/globals.css"
 ```
 
 ### Theme options
