@@ -12,7 +12,7 @@ const globalsCss = `
 @tailwind components;
 @tailwind utilities;
 `
-const globalsDir = "./styles/globals.css"
+const globalsDir = "./src/styles/globals.css"
 exports.onPluginInit = ({ actions, reporter }) => {
   try {
     if (fs.existsSync("tailwind.config.js")) {
@@ -32,8 +32,8 @@ exports.onPluginInit = ({ actions, reporter }) => {
     if (fs.existsSync(globalsDir)) {
       console.log("globals css already exists!")
     } else {
-      fs.mkdirSync("./styles", { recursive: true })
-      fs.writeFile("./styles/globals.css", globalsCss, function (err) {
+      fs.mkdirSync("./src/styles", { recursive: true })
+      fs.writeFile("./src/styles/globals.css", globalsCss, function (err) {
         if (err) throw err
         console.log("globals.css was created successfully.")
       })

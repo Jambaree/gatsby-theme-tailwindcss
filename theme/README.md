@@ -24,8 +24,6 @@ yarn add @jambaree/gatsby-theme-tailwindcss
 
 ## Usage
 
-**NOTE**: If you experience a FOUC (flash of unstyled content) when first loading pages, import the above mentioned `.css` file on `gatsby-browser.js`, like this:
-
 ```js
 //gatsby-browser.js
 import "./src/styles/globals.css"
@@ -42,10 +40,6 @@ This theme is using [gatsby-plugin-postcss](https://www.gatsbyjs.org/packages/ga
 | `postCssPlugins`   | [require("tailwindcss")] | postcss-plugins to load                |
 | `cssLoaderOptions` | {}                       | postcss css loader options             |
 | `emotionOptions`   | {}                       | emotion `babel-plugin-emotion` options |
-
-#### Example usage
-
-The only plugin included as default is the actual tailwindcss required to work, but I do recommend using the autoprefixer plugin.
 
 ## With autoprefixer
 
