@@ -5,13 +5,10 @@
 
 # Repo for gatsby-theme-tailwindcss
 
-This repo includes the code for the theme and a demo site which is using the theme in a very basic configuration.
-
 ## How to use this repo
 
 1.  Clone the repo
 2.  Install dependencies
-
 
     ```sh
     yarn
@@ -23,16 +20,14 @@ This repo includes the code for the theme and a demo site which is using the the
     npm install
     ```
 
-3. Start the demo site
+3.  Start the demo site
 
-   ```sh
-   yarn start
-   ```
+    ```sh
+    yarn start
+    ```
 
-   or
+    or
 
-   ```sh
-   npm start
-   ```
-
-4. Play with the demo and / or the theme
+    ```sh
+    npm start
+    ```

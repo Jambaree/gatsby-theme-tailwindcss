@@ -8,21 +8,21 @@ This theme installs:
 - [gatsby-plugin-postcss](https://www.gatsbyjs.org/packages/gatsby-plugin-postcss/)
 - [Emotion (CSS in JS)](https://emotion.sh)
 
-Tailwindcss and postcss are required to have tailwind properly working, emotion is installed because it is very common to use a CSS in JS framework and I think it is useful to have emotion and tailwind installed and configured to work together.
+This was meant to use with a gatsby new project that doesn't already have tailwind configured.
+
+It will automatically generate a src/styles/globals.css file as well as the tailwind.config.js file with tailwinds --full config (the same as using npx tailwindcss init --full)
+
+More information here: https://tailwindcss.com/docs/configuration
 
 ## Installation
-
-```sh
-npm install --save @jambaree/gatsby-theme-tailwindcss
-```
-
-or
 
 ```sh
 yarn add @jambaree/gatsby-theme-tailwindcss
 ```
 
 ## Usage
+
+Add the newly generated globals.css file to your gatsby-browser
 
 ```js
 //gatsby-browser.js

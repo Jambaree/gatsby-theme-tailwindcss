@@ -1,6 +1,6 @@
 {
   "name": "@jambaree/gatsby-theme-tailwindcss",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "main": "index.js",
   "license": "MIT",
   "author": "René Sauvé <rene@jambaree.com>",
@@ -27,16 +27,15 @@
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-    "@tailwindcss/forms": "^0.4.0",
     "gatsby-plugin-emotion": "^7.5.0",
     "gatsby-plugin-postcss": "^5.5.0",
     "tailwindcss": "^3.0.15"
   },
-  "description": "<p align=\"center\">\r   <a href=\"https://www.gatsbyjs.org\">\r     <img alt=\"Gatsby\" src=\"./gatsby-theme-tailwindcss_logo.svg\" width=\"180\" />\r   </a>\r </p>\r <h1 align=\"center\">\r   Gatsby Tailwind Theme\r </h1>",
+  "description": "Gatsby Tailwind Theme>",
   "bugs": {
     "url": "https://github.com/jambaree/gatsby-theme-tailwindcss/issues"
   },
-  "homepage": "https://github.com/jambaree/gatsby-theme-tailwindcss#readme",
+  "homepage": "https://github.com/Jambaree/gatsby-theme-tailwindcss#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

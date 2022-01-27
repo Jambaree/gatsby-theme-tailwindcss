@@ -7,7 +7,6 @@ A demo site which is using the theme in a very basic configuration.
 1.  Clone the repo
 2.  Install dependencies
 
-
     ```sh
     yarn
     ```
@@ -18,16 +17,14 @@ A demo site which is using the theme in a very basic configuration.
     npm install
     ```
 
-3. Start the demo site
+3.  Start the demo site
 
-   ```sh
-   yarn start
-   ```
+    ```sh
+    yarn start
+    ```
 
-   or
+    or
 
-   ```sh
-   npm start
-   ```
-
-4. Play with the demo site.
+    ```sh
+    npm start
+    ```
