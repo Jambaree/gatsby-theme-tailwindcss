@@ -58,9 +58,7 @@ const resources = [
 const recentPosts = [
   { id: 1, name: "Boost your poop rate", href: "#" },
   { id: 2, name: "Mostly dogs", href: "#" },
-  ,
   { id: 3, name: "Mostly cats", href: "#" },
-  ,
   { id: 4, name: "Cats and dogs", href: "#" },
 ]
 
@@ -68,8 +66,8 @@ const recentPosts = [
 function IndexPage() {
   return (
     <Layout class="bg-white">
-      <Hero1 navigation={navigation} />
       <Hero2 navigation={navigation} />
+      <Hero1 navigation={navigation} />
       <Hero3
         features={features}
         callsToAction={callsToAction}
