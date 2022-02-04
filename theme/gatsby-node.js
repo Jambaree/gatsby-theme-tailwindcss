@@ -972,12 +972,10 @@ const globalsDir = "./src/styles/globals.css"
 exports.onPluginInit = ({ reporter }) => {
   try {
     if (fs.existsSync("tailwind.config.js")) {
-      //file exists
-      reporter.warn("tailwind.config already exists!")
     } else {
       fs.writeFile("tailwind.config.js", tailwindConfig, function (err) {
         if (err) throw err
-        reporter.info("tailwind.config was created successfully.")
+        reporter.success("tailwind.config was created successfully.")
       })
     }
   } catch (err) {
@@ -986,12 +984,11 @@ exports.onPluginInit = ({ reporter }) => {
 
   try {
     if (fs.existsSync(globalsDir)) {
-      reporter.warn("globals.css already exists!")
     } else {
       fs.mkdirSync("./src/styles", { recursive: true })
       fs.writeFile("./src/styles/globals.css", globalsCss, function (err) {
         if (err) throw err
-        reporter.info("globals.css was created successfully.")
+        reporter.success("globals.css was created successfully.")
       })
     }
   } catch (err) {
