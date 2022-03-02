@@ -7,6 +7,7 @@ This theme installs:
 - [Tailwindcss](https://tailwindcss.com)
 - [gatsby-plugin-postcss](https://www.gatsbyjs.org/packages/gatsby-plugin-postcss/)
 - [Emotion (CSS in JS)](https://emotion.sh)
+- [@tailwindcss/typography'](https://tailwindcss.com/docs/typography-plugin)
 
 ## Installation
 

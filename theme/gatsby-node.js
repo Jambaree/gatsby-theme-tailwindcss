@@ -961,7 +961,9 @@ const tailwindConfig = `module.exports = {
     "active",
     "disabled",
   ],
-  plugins: [],
+    plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }`
 
 const globalsCss = `@tailwind base;
