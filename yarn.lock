@@ -4609,6 +4609,14 @@ gatsby-plugin-postcss@^5.5.0:
     "@babel/runtime" "^7.15.4"
     postcss-loader "^4.3.0"
 
+gatsby-plugin-postcss@^5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-5.9.0.tgz#c1e1888ec6738a4c25e4cafd7acc6d377e5a9603"
+  integrity sha512-G94aaf2TvD6XEn1CfXENOlcwjNiU9LK644Ofe1Q+vuV17XmboV2DuBsuNkFJuYKQzJ0FuZ8bomE3EK39SfFpfg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    postcss-loader "^4.3.0"
+
 gatsby-plugin-purgecss@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-purgecss/-/gatsby-plugin-purgecss-6.1.0.tgz#de5f90c67f2e567c6739941ec31b1228caa3e595"
