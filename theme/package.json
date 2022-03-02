@@ -1,6 +1,6 @@
 {
   "name": "@jambaree/gatsby-theme-tailwindcss",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "main": "index.js",
   "license": "MIT",
   "author": "René Sauvé <rene@jambaree.com>",
